@@ -1,0 +1,10 @@
+name: ci
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow implementation pending"

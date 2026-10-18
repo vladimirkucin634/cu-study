@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Rust / Tauri
+target/
+**/src-tauri/target/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/auth.json
+**/tokens.json
+**/cookies.json
+**/.credentials/
+**/.sessions/
+
+# Local user data
+data/
+user-data/
+knowledge/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Logs
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*.local.json
